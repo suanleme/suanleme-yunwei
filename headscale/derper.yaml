@@ -1,0 +1,14 @@
+regions:
+  901:
+    regionid: 901
+    regioncode: gongji-derper
+    regionname: "GongJi Private Derper Server"
+    nodes:
+      - name: GongJi-derper
+        regionid: 901
+        # 自行更改为自己的域名
+        hostname: headscale.suanleme.cn
+        # Derper 节点的 IP
+        ipv4: 101.251.219.62
+        # Derper 设置的 STUN 端口
+        stunport: 3456
